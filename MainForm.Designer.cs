@@ -53,7 +53,7 @@
             // 
             this.teMM.Location = new System.Drawing.Point(147, 29);
             this.teMM.Name = "teMM";
-            this.teMM.Size = new System.Drawing.Size(105, 21);
+            this.teMM.Size = new System.Drawing.Size(105, 22);
             this.teMM.TabIndex = 2;
             this.teMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -62,7 +62,7 @@
             this.lbMM.AutoSize = true;
             this.lbMM.Location = new System.Drawing.Point(21, 32);
             this.lbMM.Name = "lbMM";
-            this.lbMM.Size = new System.Drawing.Size(67, 12);
+            this.lbMM.Size = new System.Drawing.Size(71, 14);
             this.lbMM.TabIndex = 3;
             this.lbMM.Text = "Millimeters";
             // 
@@ -71,7 +71,7 @@
             this.lbInch.AutoSize = true;
             this.lbInch.Location = new System.Drawing.Point(21, 65);
             this.lbInch.Name = "lbInch";
-            this.lbInch.Size = new System.Drawing.Size(43, 12);
+            this.lbInch.Size = new System.Drawing.Size(43, 14);
             this.lbInch.TabIndex = 4;
             this.lbInch.Text = "Inches";
             // 
@@ -80,7 +80,7 @@
             this.teInch.Location = new System.Drawing.Point(147, 62);
             this.teInch.Name = "teInch";
             this.teInch.ReadOnly = true;
-            this.teInch.Size = new System.Drawing.Size(105, 21);
+            this.teInch.Size = new System.Drawing.Size(105, 22);
             this.teInch.TabIndex = 5;
             this.teInch.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -89,7 +89,7 @@
             this.teFraction.Location = new System.Drawing.Point(147, 95);
             this.teFraction.Name = "teFraction";
             this.teFraction.ReadOnly = true;
-            this.teFraction.Size = new System.Drawing.Size(105, 21);
+            this.teFraction.Size = new System.Drawing.Size(105, 22);
             this.teFraction.TabIndex = 7;
             this.teFraction.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -98,7 +98,7 @@
             this.lbFractional.AutoSize = true;
             this.lbFractional.Location = new System.Drawing.Point(21, 98);
             this.lbFractional.Name = "lbFractional";
-            this.lbFractional.Size = new System.Drawing.Size(102, 12);
+            this.lbFractional.Size = new System.Drawing.Size(97, 14);
             this.lbFractional.TabIndex = 6;
             this.lbFractional.Text = "Inches (Fraction)";
             // 
@@ -124,7 +124,11 @@
             this.ClientSize = new System.Drawing.Size(309, 181);
             this.Controls.Add(this.grMain);
             this.Controls.Add(this.sbConvert);
+            this.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
+            this.ShowIcon = false;
             this.Text = "MainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
